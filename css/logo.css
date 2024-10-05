@@ -1,0 +1,63 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+ }
+  
+ /* Logo container */
+ .logo {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+  
+  /* Icon next to the text */
+  .logo-icon {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  /* Circle part of the icon */
+  .logo-icon .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Wave line (powerwash representation) */
+  .logo-icon .wave {
+    width: 80px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    border-radius: 50%;
+    z-index: 0;
+    transform: rotate(15deg);
+  }
+  
+  /* Logo text */
+  .logo-text h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logo-text h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #f4f4f4;
+  }
+  
