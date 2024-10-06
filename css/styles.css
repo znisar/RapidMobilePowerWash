@@ -1,0 +1,14 @@
+/* styles.css */
+.carasoul_main {
+    background-color: #0a0a0a;
+    color: rgb(255, 255, 255);
+    padding: 100px 0;
+    text-align: center;
+    
+}
+  
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
