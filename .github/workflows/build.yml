@@ -3,11 +3,11 @@ name: Deploy static content to Pages
 
 on: push
 jobs:
-    first-job:
-      runs-on: windows-latest
-      steps:
-        - run: node --version
-        - run: npm --version
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - run: node --version
+      - run: npm --version
 # on:
 #   # Runs on pushes targeting main (default) branch
 #   push:
