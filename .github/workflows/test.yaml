@@ -1,0 +1,1 @@
+ansible-playbook playbook.yml -e "env_yaml=vars/${REPO}/${ENVIRONMENT_TYPE}.yml" -e "default_yml=vars/${REPO}/zones.yml" -vvv

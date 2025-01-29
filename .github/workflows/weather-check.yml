@@ -1,0 +1,19 @@
+name: Weather Check
+
+on:
+    workflow_dispatch:  #Trigger the workflow manually 
+    schedule:
+        - cron: "0 8 * * *" # Runs daily at 8:00 UTC
+
+# Test
+# test 
+
+
+jobs:
+    get-weather
+        run-on: ubantu-latest
+
+        steps:
+            - name: Make API request to OpenWeather 
+            run:
+                curl -X GET ""http://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=${{ secrets.OPENWEATHER_API_KEY }}" -H "accept: application/json""
